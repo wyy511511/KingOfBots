@@ -1,4 +1,5 @@
 <template>
+
   <div>
     <div> Bot name:{{ bot_name}} </div>
     <div> Bot rating: {{ bot_rating}} </div>
@@ -10,6 +11,7 @@
 
 
 <script>
+import NavBar from './components/NavBar.vue'
 import {ref} from 'vue';
 import $ from 'jquery';
 
